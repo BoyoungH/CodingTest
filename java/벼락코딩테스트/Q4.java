@@ -1,3 +1,5 @@
+// 페이징 교체 알고리즘 (FIFO)
+//FIFO와 LRU의 차이는 동일한 페이지의 경우 fifo는 같게 취급(오래된 것으로 봄), lru는 다르게 취급(최근 사용된 걸로 봄)
 import java.util.*;
 
 public class Q4 {
