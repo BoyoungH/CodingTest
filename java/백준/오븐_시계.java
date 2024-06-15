@@ -14,8 +14,7 @@ public class 오븐_시계 {
         if(B+C>=60){
             A += (B+C)/60;
             B = (B+C)%60;
-            if(A==24) A=0;
-            if(B==60) B=0;
+            if(A>=24) A-=24;
         }else{
             B += C;
         }
