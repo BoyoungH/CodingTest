@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class 연산자_끼워넣기 {
+public class 연산자_끼워넣기2 {
     static int N;
     static int[] A;
     static int[] plus;
