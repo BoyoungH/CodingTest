@@ -1,3 +1,4 @@
+package DFS_BFS;
 class Solution {
     public int solution(int n, int[][] computers) {
         int count = 0;

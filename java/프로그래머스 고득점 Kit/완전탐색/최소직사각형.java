@@ -1,3 +1,4 @@
+package 완전탐색;
 
 class Solution {
     public int solution(int[][] sizes) {
