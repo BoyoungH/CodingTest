@@ -1,5 +1,7 @@
 import java.util.*;
 
+import 완전탐색.Solution;
+
 public class Solution{
     public boolean solution(String[] phone_book){
         boolean answer=true;
