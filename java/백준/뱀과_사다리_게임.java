@@ -29,7 +29,7 @@ public class 뱀과_사다리_게임 {
 
 
     }
-    private static int bfs(){
+    private static int bfs(){ // 처음 목적지에 도달한 경우가 최단경로가 됨
         Queue<Node> q = new LinkedList<>();
         Node now = new Node(1, 0);
         visited[now.index] = true;
