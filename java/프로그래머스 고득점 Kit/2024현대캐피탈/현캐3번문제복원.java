@@ -4,6 +4,9 @@ class Solution {
     public int solution(int[][] part_times) {
         int n = part_times.length;
 
+        // a와 b는 한 행이 비교됨 -> 한 행에서 기준이 되는 배열index를 선택
+        // 보통 a보다 b가 더 크다고 생각하여 아래처럼 작성하면 오름차순
+        // Arrays.sort(part_times, (a, b) -> Integer.compare(b[1], a[1])); 이건 내림차순
         Arrays.sort(part_times, (a, b) -> Integer.compare(a[1], b[1]));
 
         int[] dp = new int[n];
